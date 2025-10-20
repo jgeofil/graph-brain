@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ["MEM0_API_KEY"] = "m0-aBm0DqpiOQ1UErZRKfnCkf7HPWVLjsIJG71dbWGy"
 client = MemoryClient()
 
 
