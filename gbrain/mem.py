@@ -1,12 +1,16 @@
+# %%
 import os
 from pprint import PrettyPrinter
 from mem0 import MemoryClient
 from dotenv import load_dotenv
+# %%
 
+
+# %%
 load_dotenv()
 
 client = MemoryClient()
-
+# %%
 
 messages = [
     {
