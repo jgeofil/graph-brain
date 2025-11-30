@@ -1,16 +1,16 @@
-# %%
 import os
 from pprint import PrettyPrinter
 from mem0 import MemoryClient
 from dotenv import load_dotenv
-# %%
 
-
-# %%
 load_dotenv()
+client = MemoryClient(os.environ["MEM0_API_KEY"])
 
+<<<<<<< HEAD
 client = MemoryClient()
 # %%
+=======
+>>>>>>> f5a6ca4 (again)
 
 messages = [
     {
@@ -27,9 +27,8 @@ client.add(messages, user_id="alex")
 
 
 query = "What can I cook for dinner tonight?"
-
 filters = {"OR": [{"user_id": "alex"}]}
-
 response = client.search(query, version="v2", filters=filters)
+
 
 print(PrettyPrinter(4).pformat(response))
