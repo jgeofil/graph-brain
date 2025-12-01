@@ -11,6 +11,7 @@ dependencies = [
     "azure-mgmt-resource>=24.0.0",
     "dotenv>=0.9.9",
     "google-genai>=1.52.0",
+    "mcp[cli]>=1.22.0",
     "mem0ai>=1.0.0",
     "sendgrid>=6.12.5",
 ]
