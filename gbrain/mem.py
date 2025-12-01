@@ -6,12 +6,6 @@ from dotenv import load_dotenv
 load_dotenv()
 client = MemoryClient(os.environ["MEM0_API_KEY"])
 
-<<<<<<< HEAD
-client = MemoryClient()
-# %%
-=======
->>>>>>> f5a6ca4 (again)
-
 messages = [
     {
         "role": "user",
