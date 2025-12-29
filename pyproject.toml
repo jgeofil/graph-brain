@@ -14,4 +14,16 @@ dependencies = [
     "mcp[cli]>=1.22.0",
     "mem0ai>=1.0.0",
     "sendgrid>=6.12.5",
+    "google-cloud-aiplatform>=1.26.0",
+    "openai>=1.52.0",
+    "supermemory>=1.0.0"
+]
+dev-dependencies = [
+    "pytest>=8.3.4",
+    "pytest-cov>=4.1.0",
+    "black>=23.12.0",
+    "isort>=5.12.0",
+    "mypy>=1.4.1",
+    "pyright>=1.1.286",
+    "ruff>=0.0.266"
 ]
